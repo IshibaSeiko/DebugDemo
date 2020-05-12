@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func viewSwapButton(_ sender: UIButton) {
+        // ViewDebugでボタンのタップイベントが取得できない原因を確認する
         view.bringSubviewToFront(view.subviews[1])
     }
 
