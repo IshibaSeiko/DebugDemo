@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func viewSwapButton(_ sender: UIButton) {
+        // breakpointによって処理を止め、コンソールで`view.subviews[1]`を確認する
         view.bringSubviewToFront(view.subviews[1])
     }
 
