@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var redView: UIView!
+    @IBOutlet weak var brueView: UIView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    }
+
+    @IBAction func viewSwapButton(_ sender: UIButton) {
+        view.bringSubviewToFront(view.subviews[1])
     }
 
 
