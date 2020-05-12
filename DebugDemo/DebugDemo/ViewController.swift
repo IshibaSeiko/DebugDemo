@@ -18,7 +18,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func viewSwapButton(_ sender: UIButton) {
-        view.bringSubviewToFront(view.subviews[1])
+        // Exception Breakpointでクラッシュした原因を確認する
+        view.bringSubviewToFront(view.subviews[99])
     }
 
 
