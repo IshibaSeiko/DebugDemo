@@ -58,10 +58,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="brueView" destination="Ncs-pM-Kv7" id="NLe-wl-U4G"/>
-                        <outlet property="redView" destination="jis-sL-Lca" id="Q8h-PY-UUT"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
