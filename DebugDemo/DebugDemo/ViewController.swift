@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    @IBAction func viewSwapButton(_ sender: UIButton) {
+    @IBAction func didTapSwapButton(_ sender: UIButton) {
         view.bringSubviewToFront(view.subviews[1])
     }
 
