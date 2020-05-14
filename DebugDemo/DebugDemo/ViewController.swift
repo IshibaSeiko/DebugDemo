@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    @IBAction func viewSwapButton(_ sender: UIButton) {
+    @IBAction func didTapSwapButton(_ sender: UIButton) {
         // breakpointにactionを追加し、コンソールに`view.subviews[1]`のログを表示する
         view.bringSubviewToFront(view.subviews[1])
     }
